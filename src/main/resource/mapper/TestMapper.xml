@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ouyang.dao.TestMapper">
+  <resultMap id="BaseResultMap" type="com.ouyang.model.Test">
+    <!--          -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="t2" jdbcType="VARCHAR" property="t2" />
+  </resultMap>
+  <resultMap extends="BaseResultMap" id="ResultMapWithBLOBs" type="com.ouyang.model.Test">
+    <!--          -->
+    <result column="text" jdbcType="LONGVARCHAR" property="text" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--          -->
+    id, t2
+  </sql>
+  <sql id="Blob_Column_List">
+    <!--          -->
+    text
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="ResultMapWithBLOBs">
+    <!--          -->
+    select 
+    <include refid="Base_Column_List" />
+    ,
+    <include refid="Blob_Column_List" />
+    from test
+    where 1=1 AND id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    <!--          -->
+    delete from test
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.ouyang.model.Test">
+    <!--          -->
+    insert into test (id, t2, text
+      )
+    values (#{id,jdbcType=INTEGER}, #{t2,jdbcType=VARCHAR}, #{text,jdbcType=LONGVARCHAR}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.ouyang.model.Test">
+    <!--          -->
+    insert into test
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      <if test="t2 != null">
+        t2,
+      </if>
+      <if test="text != null">
+        text,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="t2 != null">
+        #{t2,jdbcType=VARCHAR},
+      </if>
+      <if test="text != null">
+        #{text,jdbcType=LONGVARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.ouyang.model.Test">
+    <!--          -->
+    update test
+    <set>
+      <if test="t2 != null">
+        t2 = #{t2,jdbcType=VARCHAR},
+      </if>
+      <if test="text != null">
+        text = #{text,jdbcType=LONGVARCHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKeyWithBLOBs" parameterType="com.ouyang.model.Test">
+    <!--          -->
+    update test
+    set t2 = #{t2,jdbcType=VARCHAR},
+      text = #{text,jdbcType=LONGVARCHAR}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.ouyang.model.Test">
+    <!--          -->
+    update test
+    set t2 = #{t2,jdbcType=VARCHAR}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+</mapper>
