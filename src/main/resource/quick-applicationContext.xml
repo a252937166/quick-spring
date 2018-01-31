@@ -53,6 +53,8 @@
         <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
     </bean>
 
+    <!--选择自动扫描路径-->
     <context:component-scan base-package="com.ouyang"/>
+    <!--选择配置文件-->
     <context:property-placeholder location="classpath:application.properties" />
 </beans>
