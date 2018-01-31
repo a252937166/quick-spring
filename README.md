@@ -19,9 +19,9 @@ https://github.com/a252937166/quick-spring
 
 ## 测试项目目录结构
 
-<center>![这里写图片描述](http://img.blog.csdn.net/20180131173341656?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvTXJfT09P/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)</center>
+![这里写图片描述](http://img.blog.csdn.net/20180131173341656?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvTXJfT09P/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
-<center>**图（1）**</center>
+**图（1）**
 
 ## 导入maven
 
