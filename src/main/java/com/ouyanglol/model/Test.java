@@ -1,4 +1,4 @@
-package com.ouyang.model;
+package com.ouyanglol.model;
 
 public class Test {
     /**   id **/

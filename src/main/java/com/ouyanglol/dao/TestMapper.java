@@ -1,6 +1,6 @@
-package com.ouyang.dao;
+package com.ouyanglol.dao;
 
-import com.ouyang.model.Test;
+import com.ouyanglol.model.Test;
 
 public interface TestMapper {
     int deleteByPrimaryKey(Integer id);

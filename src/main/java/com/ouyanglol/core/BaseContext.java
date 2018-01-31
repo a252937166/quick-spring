@@ -1,7 +1,7 @@
-package com.ouyang.core;
+package com.ouyanglol.core;
 
 
-import com.ouyang.annotation.QuickSpring;
+import com.ouyanglol.annotation.QuickSpring;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.context.ApplicationContext;

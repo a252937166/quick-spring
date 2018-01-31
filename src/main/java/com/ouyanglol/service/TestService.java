@@ -1,7 +1,7 @@
-package com.ouyang.service;
+package com.ouyanglol.service;
 
-import com.ouyang.dao.TestMapper;
-import com.ouyang.model.Test;
+import com.ouyanglol.dao.TestMapper;
+import com.ouyanglol.model.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

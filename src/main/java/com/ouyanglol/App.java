@@ -1,11 +1,11 @@
-package com.ouyang;
+package com.ouyanglol;
 
 
-import com.ouyang.core.QuickBase;
-import com.ouyang.model.Test;
-import com.ouyang.quick.MyQuick;
-import com.ouyang.service.TestService;
-import com.ouyang.test.TestQuick;
+import com.ouyanglol.core.QuickBase;
+import com.ouyanglol.model.Test;
+import com.ouyanglol.quick.MyQuick;
+import com.ouyanglol.service.TestService;
+import com.ouyanglol.test.TestQuick;
 
 /**
  * Hello world!

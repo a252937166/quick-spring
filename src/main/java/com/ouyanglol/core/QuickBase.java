@@ -1,4 +1,4 @@
-package com.ouyang.core;
+package com.ouyanglol.core;
 
 
 /**

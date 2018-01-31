@@ -1,4 +1,4 @@
-package com.ouyang.annotation;
+package com.ouyanglol.annotation;
 
 import org.springframework.stereotype.Component;
 

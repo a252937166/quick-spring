@@ -1,4 +1,4 @@
-package com.ouyang.core;
+package com.ouyanglol.core;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.ImportResource;

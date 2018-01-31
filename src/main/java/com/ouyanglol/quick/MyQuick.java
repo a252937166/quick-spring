@@ -1,7 +1,7 @@
-package com.ouyang.quick;
+package com.ouyanglol.quick;
 
-import com.ouyang.annotation.QuickSpring;
-import com.ouyang.service.TestService;
+import com.ouyanglol.annotation.QuickSpring;
+import com.ouyanglol.service.TestService;
 import org.springframework.beans.factory.annotation.Autowired;
 
 /**
