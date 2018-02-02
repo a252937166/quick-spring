@@ -111,7 +111,7 @@ https://github.com/a252937166/quick-spring
     <context:property-placeholder location="classpath:application.properties" />
 </beans>
 ```
-其中`<context:component-scan base-package="com.ouyang"/>`和`<context:property-placeholder location="classpath:application.properties" />`大家根据自己项目路径自己改一下。
+其中`<context:component-scan base-package="com.ouyang"/>`，`<property name="basePackage" value="com.ouyang.dao"/>`和`<context:property-placeholder location="classpath:application.properties" />`大家根据自己项目路径自己改一下。
 
 ### log4j.properties
 
