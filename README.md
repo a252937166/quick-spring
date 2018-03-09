@@ -1,4 +1,5 @@
-[TOC]
+
+![Travis](https://img.shields.io/travis/USER/REPO.svg)
 
 # 框架介绍
 
