@@ -22,7 +22,7 @@ https://github.com/a252937166/quick-spring
 
 ## 测试项目目录结构
 
-![这里写图片描述](https://qiniu.ouyanglol.com/blog/Quick%20Spring1.png)
+![这里写图片描述](https://qiniu.ouyanglol.com/blog/Quick%20Spring%E2%80%94%E2%80%94%E4%B8%80%E6%AC%BE%E5%9C%A8main%E6%96%B9%E6%B3%95%E4%B8%AD%E4%BD%BF%E7%94%A8spring%E8%AF%AD%E6%B3%95%E7%9A%84%E6%95%8F%E6%8D%B7%E6%A1%86%E6%9E%B61.png)
 
 **图（1）**
 
@@ -40,7 +40,7 @@ https://github.com/a252937166/quick-spring
     </dependency>
 ```
 
-![这里写图片描述](https://qiniu.ouyanglol.com/blog/Quick%20Spring2.png)
+![这里写图片描述](https://qiniu.ouyanglol.com/blog/Quick%20Spring%E2%80%94%E2%80%94%E4%B8%80%E6%AC%BE%E5%9C%A8main%E6%96%B9%E6%B3%95%E4%B8%AD%E4%BD%BF%E7%94%A8spring%E8%AF%AD%E6%B3%95%E7%9A%84%E6%95%8F%E6%8D%B7%E6%A1%86%E6%9E%B62.png)
 
 **图（2）**
  
@@ -356,7 +356,7 @@ quickBase.getBean("testService")
 
 ## 测试结果
 
-![这里写图片描述](https://qiniu.ouyanglol.com/blog/Quick%20Spring3.png)
+![这里写图片描述](https://qiniu.ouyanglol.com/blog/Quick%20Spring%E2%80%94%E2%80%94%E4%B8%80%E6%AC%BE%E5%9C%A8main%E6%96%B9%E6%B3%95%E4%B8%AD%E4%BD%BF%E7%94%A8spring%E8%AF%AD%E6%B3%95%E7%9A%84%E6%95%8F%E6%8D%B7%E6%A1%86%E6%9E%B63.png)
 
 **图(3)**
 
