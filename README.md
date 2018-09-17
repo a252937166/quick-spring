@@ -22,7 +22,7 @@ https://github.com/a252937166/quick-spring
 
 ## 测试项目目录结构
 
-![这里写图片描述](https://qiniu.ouyanglol.com/blog/Quick%20Spring2.png)
+![这里写图片描述](https://qiniu.ouyanglol.com/blog/Quick%20Spring1.png)
 
 **图（1）**
 
@@ -40,7 +40,7 @@ https://github.com/a252937166/quick-spring
     </dependency>
 ```
 
-![这里写图片描述](https://qiniu.ouyanglol.com/blog/Quick%20Spring1.png)
+![这里写图片描述](https://qiniu.ouyanglol.com/blog/Quick%20Spring2.png)
 
 **图（2）**
  
